@@ -1,0 +1,12 @@
+/* src/components/styles/Header.module.css */
+.header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+  

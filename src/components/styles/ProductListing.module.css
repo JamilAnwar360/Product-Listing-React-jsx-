@@ -1,0 +1,20 @@
+/* src/components/styles/ProductListing.module.css */
+.productListing {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Default for larger screens */
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .productListing {
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Fewer columns on medium screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .productListing {
+      grid-template-columns: 1fr; /* Stacking in a single column on small screens */
+    }
+  }
+  
